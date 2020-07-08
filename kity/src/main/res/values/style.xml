@@ -1,0 +1,66 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--从名为A的activity跳转到B，B也可以跳转到C，其中转场动画设置在B上。-->
+    <!--android:activityOpenEnterAnimation：指的是，进入时B的动画。-->
+    <!--android:activityOpenExitAnimation：指的是进入B时，A的动画，与B的动画是一起显示的。-->
+    <!--android:activityCloseEnterAnimation：通过B跳转到C后，后退到B时，B的进入动画-->
+    <!--android:activityCloseExitAnimation：通过B跳转到C后，后退到B时，C的退出动画-->
+    <style name="ActivityAnimationHorizon" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_open_enter_horizon</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_open_exit_horizon</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_close_enter_horizon</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_close_exit_horizon</item>
+    </style>
+
+    <!--DialogKit DialogView-->
+    <style name="dialog_center" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/dialog_center_animation</item>
+    </style>
+
+    <style name="dialog_bottom" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/dialog_bottom_animation</item>
+    </style>
+
+    <style name="dialog_top" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/dialog_top_animation</item>
+    </style>
+
+    <style name="dialog_center_animation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/kity_dialog_center_enter</item>
+        <item name="android:windowExitAnimation">@anim/kity_dialog_center_exit</item>
+    </style>
+
+    <style name="dialog_top_animation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/kity_dialog_top_enter</item>
+        <item name="android:windowExitAnimation">@anim/kity_dialog_top_exit</item>
+    </style>
+
+    <style name="dialog_bottom_animation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/kity_dialog_bottom_enter</item>
+        <item name="android:windowExitAnimation">@anim/kity_dialog_bottom_exit</item>
+    </style>
+
+
+
+</resources>

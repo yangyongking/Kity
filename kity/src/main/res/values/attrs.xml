@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--MarqueeView-->
+    <declare-styleable name="MarqueeViewStyle">
+        <attr name="mvInterval" format="integer|reference" />
+        <attr name="mvAnimDuration" format="integer|reference" />
+        <attr name="mvTextSize" format="dimension|reference" />
+        <attr name="mvTextColor" format="color|reference" />
+        <attr name="mvSingleLine" format="boolean" />
+        <attr name="mvGravity">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <attr name="mvDirection">
+            <enum name="bottom_to_top" value="0" />
+            <enum name="top_to_bottom" value="1" />
+            <enum name="right_to_left" value="2" />
+            <enum name="left_to_right" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <!-- CardBarView -->
+    <declare-styleable name="CardBarView">
+        <attr name="image" format="reference" />
+        <attr name="mainText" format="string|reference" />
+        <attr name="mainTextSize" format="dimension|reference" />
+        <attr name="mainTextColor" format="color|reference" />
+        <attr name="contentText" format="string|reference" />
+        <attr name="contentTextSize" format="dimension|reference" />
+        <attr name="contentTextColor" format="color|reference" />
+        <attr name="jump" format="reference" />
+        <attr name="paddingHorizon" format="dimension|reference" />
+        <attr name="paddingVertical" format="dimension|reference" />
+        <attr name="linePadding" format="dimension|reference" />
+        <attr name="radiusPx" format="dimension|reference" />
+        <attr name="line" format="enum">
+            <enum name="none" value="0" />
+            <enum name="both" value="1" />
+            <enum name="top" value="2" />
+            <enum name="bottom" value="3" />
+        </attr>
+    </declare-styleable>
+
+</resources>
