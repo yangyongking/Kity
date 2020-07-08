@@ -32,6 +32,7 @@ public final class Kit {
     /*
      *********************************** Empty ***********************************
      */
+
     public static boolean notEmpty(String str) {
         return !isEmpty(str);
     }
@@ -49,10 +50,6 @@ public final class Kit {
             return true;
         }
         return false;
-    }
-
-    public static String stringNullToEmpty(String str) {
-        return str == null ? "" : str;
     }
 
 
@@ -231,6 +228,9 @@ public final class Kit {
     public static float px2sp(Context context, float pxVal) {
         return DensityKit.px2sp(context, pxVal);
     }
+
+
+
 
 
 }
