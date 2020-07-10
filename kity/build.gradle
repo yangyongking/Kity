@@ -24,10 +24,10 @@ repositories {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
+//    testImplementation 'junit:junit:4.12'
+//    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+//        exclude group: 'com.android.support', module: 'support-annotations'
+//    })
 
 //    //https://github.com/sd6352051/NiftyDialogEffects
 //    implementation 'com.github.sd6352051:NiftyDialogEffects:v1.0.3'
