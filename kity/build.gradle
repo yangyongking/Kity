@@ -88,7 +88,7 @@ ext {
     // 从Github上clone下来的项目的本地地址
     GITHUB_REPO_PATH = "D:\\Code\\Android\\AAR\\Kity"
     // compile 'com.audienl:super_library:1.0.0'
-    PUBLISH_GROUP_ID = 'com.windleaf'
+    PUBLISH_GROUP_ID = 'me.windleaf.kity'
     PUBLISH_ARTIFACT_ID = 'kity'
     PUBLISH_VERSION = '1.0.0'
 }
