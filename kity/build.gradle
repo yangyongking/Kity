@@ -88,7 +88,7 @@ ext {
 //    GITHUB_REPO_PATH = "D:\\Code\\Android\\AAR\\Kity"
     GITHUB_REPO_PATH = "/aar"
     // compile 'com.audienl:super_library:1.0.0'
-    PUBLISH_GROUP_ID = 'me.windleaf'
+    PUBLISH_GROUP_ID = 'com.windleaf'
     PUBLISH_ARTIFACT_ID = 'kity'
     PUBLISH_VERSION = '1.0.0'
 }
