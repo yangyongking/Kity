@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
-    String git = " ";
+    String git = "  ";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
